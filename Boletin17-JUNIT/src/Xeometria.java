@@ -18,4 +18,11 @@ public class Xeometria {
 
 	}
 
+	double teoremaPitagoras(double hipotenusa, double catetoA) {
+
+		double b;
+		b = (hipotenusa * hipotenusa) - (catetoA * catetoA);
+		return Math.sqrt(b);
+
+	}
 }
